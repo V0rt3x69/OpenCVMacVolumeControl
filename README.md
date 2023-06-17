@@ -8,7 +8,7 @@ The code provides a hand gesture volume control system using a webcam and the Op
 ## **How It Works**
 The code captures frames from the webcam using OpenCV.
 
-#### It detects hand gestures by:
+**It detects hand gestures by:**
 - Selecting a Region of Interest (ROI) within the frame
 - Converting the ROI into grayscale
 - Applying Gaussian blur to smoothen the image
