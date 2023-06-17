@@ -1,6 +1,6 @@
 # **Hand Gesture Volume Control**
 ## **Dependencies**
-CoreAudio: Provides access to audio devices and volume control on macOS.<br>OpenCV: A computer vision library used for image processing and contour detection.
+- CoreAudio: Provides access to audio devices and volume control on macOS.<br>- OpenCV: A computer vision library used for image processing and contour detection.
 
 ## **Functionality**
 The code provides a hand gesture volume control system using a webcam and the OpenCV library. It allows you to control the volume of a Mac computer by using hand gestures in front of the webcam
