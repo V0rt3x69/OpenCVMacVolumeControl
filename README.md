@@ -7,7 +7,7 @@
 The code provides a hand gesture volume control system using a webcam and the OpenCV library. It allows you to control the volume of a Mac computer by using hand gestures in front of the webcam
 
 ## **How It Works**
-The code captures frames from the webcam using OpenCV.
+**The code captures frames from the webcam using OpenCV.**
 
 **It detects hand gestures by:**
 - Selecting a Region of Interest (ROI) within the frame
@@ -16,13 +16,13 @@ The code captures frames from the webcam using OpenCV.
 - Thresholding the image to obtain a binary representation
 - Finding contours in the binary image
 
-Once the contours are obtained, the code performs the following steps:
+**Once the contours are obtained, the code performs the following steps:**
 
 - Selecting the contour with the largest area as the hand contour.
 - Finding the convex hull and convexity defects of the hand contour.
 - Determining the fingertip points based on the deepest defect.
 
-If fingertip points are successfully detected, the code proceeds with the following actions:
+**If fingertip points are successfully detected, the code proceeds with the following actions:**
 
 - Drawing lines and circles to highlight the fingertips and the defect.
 - Calculating the distance between the fingertips.
@@ -31,7 +31,7 @@ If fingertip points are successfully detected, the code proceeds with the follow
 - Displaying the current volume percentage on the top-left corner of the image.
 - Drawing a rectangle around the ROI on the original image.
 
-The processed frame is then displayed in a window named "Webcam". The code continuously listens for keyboard input to provide additional functionality:
+**The processed frame is then displayed in a window named "Webcam". The code continuously listens for keyboard input to provide additional functionality:**
 
 - Pressing 'q' will exit the program.
 - Pressing 't' will toggle the display of fingertip detection on and off.
